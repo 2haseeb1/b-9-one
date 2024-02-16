@@ -129,11 +129,38 @@
     right:100px;
 
 }
+.gradient-container {
+    margin-top: 33px;
+    width: 86%;
+    height: 482px;
+    background: rgba(255, 72, 52, 0.553); /* fallback for browsers that don't support gradients */
+    background: linear-gradient(to bottom, rgba(255, 52, 52, 0.461), rgb(229, 231, 235));
+    border-radius: 8px;
+    position:relative;
+  }
+.gradient-container .place{
+  position:absolute;
+  top:150px;
+  left:488px;
+  font-size: 32px;
+  }
+.gradient-container .date{
+  position:absolute;
+  top:200px;
+  left:431px;
+  font-size: 32px;
+  }
+.gradient-container .time{
+  position:absolute;
+  top:250px;
+  left:394px;
+  font-size: 32px;
+  }
 </style>
 <body>
     <header>
 <!-- banner -->
-<div class="banner" ">
+<div class="banner">
 <img src="./images/Banner Image.png" alt="">
     </header>
 </div>
@@ -153,6 +180,14 @@
             <p class="join">JOIN NOW</p>
             <img src="./images/Group 70.png" alt="" class="img">
     </div>
+    <div  style="display:flex;justify-content: center;">
+          <div class="gradient-container">
+              <p class="place"><span>Place:</span> New Park Hotel</p>
+              <p class="date">Date: 31 December Night 2023</p>
+              <p class="time">Time: Evening 7.30 pm to 12.30 am</p>
+            </div>
+
+      </div>
 </main>
     <footer>
 
