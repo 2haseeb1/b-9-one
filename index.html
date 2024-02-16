@@ -11,6 +11,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- google-font-merriweather -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <style>
@@ -177,6 +182,127 @@
  border-radius:5px;
  font-size: 22px;
   }
+  .offer-column-container{
+    width: 1320px;
+    height: 463px;
+    background: rgba(0, 128, 128, 0.594);
+    display:flex;
+    justify-content: center;
+    gap:10px
+  }
+  .offer-column-one{
+  width: 393px;
+  height: 255px;
+  border: 2px solid red;
+  font-size: 24px;
+  color: #ff0000;
+  margin-top: 60px;
+  padding: 10px;
+  }
+  .offer-column-one span{
+  font-family: "Merriweather", serif;;
+  font-size:48px;
+  color:#070211;
+  
+  }
+  .offer-column-one p{
+ 
+  font-size:20px;
+  color:#0702117e;
+  font-weight: 400;
+  
+  
+  }
+  .offer-column-two{
+  width: 463px;
+  height:463px;
+  border: 2px solid red;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  }
+  .offer-column-two img{
+  width: 423px;
+  height:423px;
+  margin-top: 20px;
+  border:4px solid red ;
+  border-radius: 360px;
+  padding: 20px;
+ 
+  }
+  .offer-column-three{
+  width: 276px;
+  height: 170px;
+  border: 2px solid red;
+  }
+  .offer-column-three span{
+  color:#ff0000;
+  font-size:48px;
+  margin-top: 40px;
+  display: block;
+  padding-left: 40px;
+
+  }
+  .offer-column-three p{
+  
+  font-size:20px;
+  padding: 10px;
+  color:#0702118e
+  
+
+  }
+  .offer-column-img{
+  width: 276px;
+  height: 170px;
+  }
+  .discount{
+    width:1320px;
+    height: 986px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 34px;
+
+  }
+  .portfolio{
+    width:1320px;
+    height: 1132px;
+    border: 2px solid green;
+    margin: 0 auto;
+    
+
+  }
+  /* portfolio section styling */
+  .porfolio-container{
+    width: 1320px;
+    height: 1163px;
+    border: 2px solid turquoise;
+  }
+  .portfolio-title{
+    font-size:24px ;
+    color:#ff0000;
+
+  }
+  .portfolio-subtitle{
+    font-size:48px;
+  }
+  .portfolio-para{
+    font-size:20px;
+    color: #07021180;
+  }
+
+  .card-container{
+    width:1320px;
+    height: 900px;
+    border:2px solid hotpink;
+    padding-top:10px ;
+    margin-top: 28px;
+    
+   
+  }
+  .card-cotainer .card img{
+    width: 424px;
+    height:450px ;
+  }
 </style>
 <body>
     <header>
@@ -211,10 +337,61 @@
             </div>
        
     </section>
-    
-      <section>
-
+    <!-- offer section start -->
+      <section style="display: flex;justify-content: center;width:86%;margin: 0 auto;margin-top: 34px;">
+       <div style="" class="offer-column-container">
+        <div class="offer-column-one">
+            <p>NEW BEST OFFER</p>
+            <span>Coming Soon</span>
+            <p>Indulge in a world of possibilities with our latest specials. From seasonal delights to timeless classics, our collection is carefully crafted to satisfy every taste and desire.</p>
+        </div>
+        <div class="offer-column-two">
+           <img src="./images/Ellipse 1.png" alt="">
+        </div>
+        <div class="offer-column-three">
+            <span>2024</span>
+            <p> Don't miss out - subscribe now !</p>
+        </div>
+       </div>
       </section>
+      <!-- offer section end -->
+      <!-- discount section start -->
+      <section style="display:flex;justify-content: center;margin: 0 auto;">
+        <div class="discount">
+            
+        </div>
+    </section>
+    <!-- discount section end -->
+    <!-- portfolio section start -->
+    <section style="display:flex;justify-content: center;margin: 0 auto;margin-top: 34px;">
+        <div class="porfolio-container">
+            <p class="portfolio-title">THE BEST GIFTS</p>
+            <p class="portfolio-subtitle">Our Awesome Portfolio</p>
+            <p style="width:65%" class="portfolio-para">Our portfolio stands as a testament to our meticulous approach and unwavering commitment to excellence. It embodies the culmination of our dedication, creativity, and relentless pursuit of perfection in every endeavor. </p>
+            <div class="card-container" style="display:flex;flex-wrap: wrap;gap:24px;border:1.3px solid teal;background: greenyellow;justify-content: center;">
+                <div class="card">
+                    <img src="./images/Rectangle 3.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/Rectangle 4.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/Rectangle 5.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/Rectangle 6.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/Rectangle 7.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./images/Rectangle 8.png" alt="">
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
 </main>
     <footer>
 
