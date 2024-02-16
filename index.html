@@ -25,6 +25,9 @@
         display: flex;
         justify-content: center;
     }
+    section{
+        width:86%;
+    }
     .off{
         text-align: center;
         font-size: 60px;
@@ -131,12 +134,15 @@
 }
 .gradient-container {
     margin-top: 33px;
-    width: 86%;
+    width: 1320px;
     height: 482px;
     background: rgba(255, 72, 52, 0.553); /* fallback for browsers that don't support gradients */
     background: linear-gradient(to bottom, rgba(255, 52, 52, 0.461), rgb(229, 231, 235));
     border-radius: 8px;
     position:relative;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 20px; 
   }
 .gradient-container .place{
   position:absolute;
@@ -156,6 +162,21 @@
   left:394px;
   font-size: 32px;
   }
+.gradient-container span{
+ color:#ff3434;
+  }
+.gradient-container button{
+ color:white;
+ background: #ff3434;
+ border:none;
+ outline:none;
+ position: absolute;
+ top: 306px;
+ left: 603px;
+ padding: 10px 9px;
+ border-radius:5px;
+ font-size: 22px;
+  }
 </style>
 <body>
     <header>
@@ -172,22 +193,28 @@
     </div>
     
    
-    <div class="banner">
+    <section class="banner">
         <h1>Welcome to </h1>
         <br>
              <h1 class="party">midnight party</h1> 
              <p>Welcome to the Midnight Party, where stars twinkle above and music fills the air with excitement. Step into an enchanting atmosphere of laughter.</p>
             <p class="join">JOIN NOW</p>
             <img src="./images/Group 70.png" alt="" class="img">
-    </div>
-    <div  style="display:flex;justify-content: center;">
-          <div class="gradient-container">
-              <p class="place"><span>Place:</span> New Park Hotel</p>
-              <p class="date">Date: 31 December Night 2023</p>
-              <p class="time">Time: Evening 7.30 pm to 12.30 am</p>
+    </section>
+    <section style="display:flex;justify-content:center;width:86%;margin:0 auto;margin-top: 34px;">
+        
+            <div class="gradient-container">
+                <p class="place"><span>Place:</span> New Park Hotel</p>
+                <p class="date"><span>Date:</span> 31 December Night 2023</p>
+                <p class="time"><span>Time:</span> Evening 7.30 pm to 12.30 am</p>
+                <button>JOIN NOW</button>
             </div>
+       
+    </section>
+    
+      <section>
 
-      </div>
+      </section>
 </main>
     <footer>
 
