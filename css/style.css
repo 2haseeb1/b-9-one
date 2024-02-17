@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-<!-- google-font noto serif -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-<!-- google-font-merriweather -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<!-- css file link -->
-<link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
-
-  <style>
+<style>
      *{
         margin: 0;
         padding: 0;
@@ -407,24 +384,14 @@
     height: 900px;
     padding-top:10px ;
     margin-top: 1px;
-    display:flex;
-    flex-wrap: wrap;
-    gap:24px;
-    justify-content: center;
     
    
   }
   .card-cotainer .card img{
     width: 424px;
     height:450px ;
-    transition: all 0.10s ease;
   }
-  .card:hover {
-        background-color: #f0f0f0;
-        color: #333; 
-        filter: blur(5px)
 
-    }
   /* subscribe-section-styling */
   .subscribe-container{
    width: 1320px;
@@ -555,178 +522,4 @@
   padding-top: 50px;
 
   } 
-
 </style>
-<body>
-  <header>
-    <!-- banner -->
-    <div class="banner">
-        <img src="./images/Banner Image.png" alt="">
-        <div class="banner-title">
-            <p>Happy New Year</p>
-            <p class="fun">Have Fun with Joy !!!</p>
-        </div>
-    </div>
-</header>
-<main>
-    <p class="off">65% OFF</p>
-    <p class="holiday">OUR HOLIDAY DEALS ARE BETTER</p>
-    <p class="categories">ALL CATEGORIES</p>
-    <div class="newyear-img-container">      <img src="./images/New Year Photo.png" alt="" class="newyear-img">
-    </div>
-    
-   
-    <section class="banner">
-        <h1>Welcome to </h1>
-        <br>
-             <h1 class="party">midnight party</h1> 
-             <p class="midnight-para">Welcome to the Midnight Party, where stars twinkle above and music fills the air with excitement. Step into an enchanting atmosphere of laughter.</p>
-            <p class="join">JOIN NOW</p>
-            <img src="./images/Group 70.png" alt="" class="img">
-    </section>
-    <section style="display:flex;justify-content:center;width:86%;margin:0 auto;margin-top: 34px;">
-        
-            <div class="gradient-container">
-                <p class="place"><span>Place:</span> New Park Hotel</p>
-                <p class="date"><span>Date:</span> 31 December Night 2023</p>
-                <p class="time"><span>Time:</span> Evening 7.30 pm to 12.30 am</p>
-                <button>JOIN NOW</button>
-            </div>
-       
-    </section>
-    <!-- offer section start -->
-      <section style="display: flex;justify-content: center;width:86%;margin: 0 auto;margin-top: 34px;">
-       <div style="" class="offer-column-container">
-        <div class="offer-column-one">
-            <p>NEW BEST OFFER</p>
-            <span>Coming Soon</span>
-            <p>Indulge in a world of possibilities with our latest specials. From seasonal delights to timeless classics, our collection is carefully crafted to satisfy every taste and desire.</p>
-        </div>
-        <div class="offer-column-two">
-           <img src="./images/Ellipse 1.png" alt="">
-        </div>
-        <div class="offer-column-three">
-            <span>2024</span>
-            <p> Don't miss out - subscribe now !</p>
-            <div id="img">
-                <img src="./images/Group 96.png" alt="">
-            </div>
-        </div>
-       </div>
-      </section>
-      <!-- offer section end -->
-      <!-- discount section start -->
-      <section style="" id="discount-container">
-        <div class="discount">
-            <p class="discount-title">WHAT IS FUNCTIONAL</p>
-            <p class="sale-para"><span>Holidays</span> Sale 50%</p>
-            <p class="sale-paragraph" style="width: 65%;margin:0 auto">Welcome to our Holiday Sale event! At our store, we believe in bringing joy to your holidays with functional and stylish products. Whether you're searching for the perfect gift or treating yourself, now is the time to take advantage of our incredible 50% discount.</p>
-            <div id="discount-50">
-              <img src="./images/Group 44.png" alt="">
-            </div>
-            <div id="discount-bag">
-             <img src="./images/Rectangle 1.png" alt="">
-            </div>
-            <div id="discount-flower">
-              <img src="./images/Group 75.png" alt="">
-            </div>
-            <div id="discount-img">
-             <img src="./images/Rectangle 2.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- discount section end -->
-    <!-- portfolio section start -->
-    <section style="display:flex;justify-content: center;margin: 0 auto;margin-top: 34px;">
-        <div class="porfolio-container">
-            <p class="portfolio-title">THE BEST GIFTS</p>
-            <p class="portfolio-subtitle">Our Awesome Portfolio</p>
-            <p style="width:65%" class="portfolio-para">Our portfolio stands as a testament to our meticulous approach and unwavering commitment to excellence. It embodies the culmination of our dedication, creativity, and relentless pursuit of perfection in every endeavor. </p>
-            <div class="card-container">
-                <div class="card">
-                    <img src="./images/Rectangle 3.png" alt="">
-                </div>
-                <div class="card">
-                    <img src="./images/Rectangle 4.png" alt="">
-                </div>
-                <div class="card">
-                    <img src="./images/Rectangle 5.png" alt="">
-                </div>
-                <div class="card">
-                    <img src="./images/Rectangle 6.png" alt="">
-                </div>
-                <div class="card">
-                    <img src="./images/Rectangle 7.png" alt="">
-                </div>
-                <div class="card">
-                    <img src="./images/Rectangle 8.png" alt="">
-                </div>
-              
-            </div>
-        </div>
-    </section>
-    <!-- portfolio section end -->
-    <!-- subscribe section start -->
-    <section style="display:flex;justify-content: center;margin: 0 auto;margin-top: 10px;">
-      <div class="subscribe-container">
-        <div style="display:flex;justify-content: center;" class="subscribe-container-img">
-          <img src="./images/Group 61.png" alt="" style="margin-top: 165px;">
-         
-        </div>
-        <p class="subscribe-title">Subscribe Newsletter</p>
-        <p class="subscribe-para">
-          
-          
-          Stay informed and connected with our newsletter! Subscribe today to receive the latest updates, exclusive offers, and exciting news straight to your inbox. </p>
-        <div id="subscribe-input-button">
-          <input type="text" placeholder="user@gmail.com"><button class="btn">Subscribe</button>
-        </div>
-      </div>
-    </section>
-   
-   
-</main>
-    <!-- subscribe section end -->
-    <footer>
-      <div style="display: flex;justify-content: space-between;width: 80%;margin: 0 auto;padding-top: 87px;">
-       <div id="footer-left">
-           <p>44, Big Building Roosevelt Street</p>
-           <p>Beach Gardens Florida 33410 Style</p>
-       </div>
-
-       <div id="footer-right">
-         <img src="./images/Call.png" alt="" id="footer-call-img">
-         <img src="./images/Website.png" alt="" id="footer-website-img">
-           <p>+00 123 584 124</p>
-           <p>www.website.com</p>
-       </div>
-      </div>
-      <div id="footer-icons-main-container">
-       <div id="footer-icons-container">
-         <div>
-           <img src="./images/Facebook.png" alt="">
-         </div>
-         <div>
-           <img src="./images/Instagram.png" alt="">
-         </div>
-         <div>
-           <img src="./images/Twitter.png" alt="">
-         </div>
-         <div>
-           <img src="./images/Linkedin.png" alt="">
-         </div>
-       </div>
-      </div>
-      <div id="footer-last-container">
-        <div id="footer-last-text">
-          <div>
-            <p>2017, All Rights Reserved.</p>
-          </div>
-          <div>
-            <p>Unsubscribe</p>
-          </div>
-        </div>
-      </div>
-   </footer>
-</body>
-</html>
